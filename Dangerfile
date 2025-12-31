@@ -1,3 +1,3 @@
-danger.import_plugin('danger-pr-comment')
+danger.import_dangerfile(gem: 'danger-pr-comment')
 
 changelog.check!
