@@ -1,5 +1,6 @@
 ### 0.9.0 (Next)
 
+* [#259](https://github.com/mongoid/mongoid-history/pull/259): Migrate Danger to danger-pr-comment workflow - [@dblock](https://github.com/dblock).
 * [#257](https://github.com/mongoid/mongoid-history/pull/257): Add track_blank_changes option - [@BrianLMatthews](https://github.com/BrianLMatthews).
 * Your contribution here.
 

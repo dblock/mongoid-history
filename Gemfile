@@ -40,8 +40,10 @@ end
 group :test do
   gem 'benchmark-ips', require: false
   gem 'coveralls'
+  gem 'danger'
+  gem 'danger-changelog'
+  gem 'danger-pr-comment'
   gem 'gem-release'
-  gem 'mongoid-danger', '~> 0.1.0', require: false
   gem 'request_store'
   gem 'rspec', '~> 3.1'
   gem 'rubocop', '~> 0.49.0'

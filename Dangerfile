@@ -1,1 +1,3 @@
-danger.import_dangerfile(gem: 'mongoid-danger')
+danger.import_plugin('danger-pr-comment')
+
+changelog.check!
