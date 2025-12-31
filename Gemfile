@@ -30,6 +30,7 @@ else
 end
 
 gem 'mongoid-compatibility'
+gem 'psych', '< 5.0'
 
 group :development, :test do
   gem 'bundler'
@@ -44,9 +45,10 @@ group :test do
   gem 'danger-changelog'
   gem 'danger-pr-comment'
   gem 'gem-release'
+  gem 'racc'
   gem 'request_store'
   gem 'rspec', '~> 3.1'
-  gem 'rubocop', '~> 0.49.0'
+  gem 'rubocop', '~> 1.28'
   gem 'term-ansicolor', '~> 1.3.0'
   gem 'yard'
 end
